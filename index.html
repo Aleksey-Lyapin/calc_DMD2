@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ипотечный калькулятор — Дом Милый дом 2 очередь</title>
-<script>window.IPOTEKA_CALC_CONFIG = { fixedProject: 'ДМД 2 оч.', installmentUrl: 'rassrochka.html' };</script>
+<script>window.IPOTEKA_CALC_CONFIG = { fixedProject: 'ДМД 2 оч.', installmentUrl: '' };</script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -406,7 +406,7 @@
     // Калькулятор одного проекта: код проекта из таблицы (например 'ДМД 1 оч.'); пусто — выбор проекта
     fixedProject: '',
     // Адрес калькулятора рассрочки (кнопка «Рассрочка» в шапке). Пусто — кнопка скрыта
-    installmentUrl: 'rassrochka.html',
+    installmentUrl: '',   // калькулятор рассрочки убран (16.10.2026) — кнопка скрыта
     // Значения по умолчанию
     defaults: { project: 'ДМД 2 оч.', price: 10000000, discount: 0.14, type: 'Семейная ипотека', kids: 'один ребёнок', term: 30 }
   }, window.IPOTEKA_CALC_CONFIG || {});
